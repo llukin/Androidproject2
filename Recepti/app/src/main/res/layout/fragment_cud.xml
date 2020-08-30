@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/labelaNaziv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelaNaziv" />
+
+        <EditText
+            android:id="@+id/naziv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/vrsta_jela"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:entries="@array/vrsta_jela"
+            />
+
+
+        <TextView
+            android:id="@+id/labelaPriprema"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelaPriprema" />
+
+        <EditText
+            android:id="@+id/priprema"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/novoJelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelaNovi" />
+
+        <Button
+            android:id="@+id/uslikaj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelaUslikaj" />
+
+        <Button
+            android:id="@+id/promjenaJela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelaPromjeni" />
+
+        <Button
+        android:id="@+id/obrisiJelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/labelaObrisi" />
+
+        <Button
+            android:id="@+id/nazad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelaNazad" />
+
+
+        <ImageView
+            android:id="@+id/slika"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/labelaSlika"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

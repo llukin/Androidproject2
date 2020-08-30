@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Recepti</string>
+    <string name="labelaNaziv">Naziv</string>
+    <string name="labelaVrsta">Vrsta</string>
+    <string name="labelaNazad">Nazad</string>
+    <string name="labelaSlika">Slika</string>
+    <string name="labelaNovi">Kreiraj novo jelo</string>
+    <string name="labelaPromjeni">Promjeni jelo</string>
+    <string name="labelaObrisi">Obriši jelo</string>
+    <string name="labelaUslikaj">Uslikaj</string>
+    <string name="labelaPriprema">Priprema</string>
+    <string-array name="vrsta_jela">
+        <item>Predjelo</item>
+        <item>Salata</item>
+        <item>Glavno jelo</item>
+        <item>Desert</item>
+    </string-array>
+</resources>
